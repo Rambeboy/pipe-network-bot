@@ -14,8 +14,6 @@ Sitting above the PoP nodes, Guardian Nodes act like watchdogs. They continuousl
 Guardian Nodes collect real-time metrics like latency, bandwidth, and uptime from PoP nodes.
 With these insights, they can reroute traffic dynamically to avoid bottlenecks, improving overall network performance.
 
-## OKE its enough for that intro , lets dive into the code. I will show you how to deploy a simple Guardian Node using CLI BETA VERSION.
-
 ## BOT FEATURE
 
 - Register New Accounts.
@@ -31,12 +29,12 @@ With these insights, they can reroute traffic dynamically to avoid bottlenecks, 
 
 ## FILE STRUCTURE
 
-- **account.json** it save your account info like email and password
-- **proxy.txt** to store proxy you want to use, each line for 1 proxy
+- **account.json** it save your account info like email and password.
+- **proxy.txt** to store proxy you want to use, each line for 1 proxy.
   ```
   http://username:pass@ip:port
   ```
-- **tokenz.json** it save access token after you login
+- **tokenz.json** it save access token after you login.
 
 ## INSTALLATION
 

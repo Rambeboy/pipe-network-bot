@@ -50,7 +50,7 @@ With these insights, they can reroute traffic dynamically to avoid bottlenecks, 
 
 3. Make new file
    ```bash
-   cp accounts/account_tmp.js accounts.json && cp accounts/tokenz_tmp.js tokenz.json
+   cp accounts/accounts_tmp.js account.json && cp accounts/tokenz_tmp.js tokenz.json
    ```
 
 4. Configure the proxy

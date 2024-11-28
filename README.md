@@ -48,13 +48,18 @@ With these insights, they can reroute traffic dynamically to avoid bottlenecks, 
    npm install
    ```
 
-3. Run The Script: Make sure you already fill proxy in `proxy.txt` before start the bot
+3. Configure the proxy
+   ```bash
+   nano proxy.txt
+   ```
+
+4. Run The Script: Make sure you already fill proxy in `proxy.txt` before start the bot
    
    ```bash
    npm run start
    ```
 
-4. Follow the instructions in the terminal to complete the setup.
+5. Follow the instructions in the terminal to complete the setup.
 - Choose `1` to Register new accounts.
 - You need login after you register accounts to get your access token.
 - choose `2` to Login to accounts.

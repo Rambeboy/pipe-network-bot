@@ -1,0 +1,38 @@
+{
+  "name": "pipe-network-bot",
+  "version": "1.0.0",
+  "description": "pipe-network-beta cli-version",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "https-proxy-agent": "^7.0.5",
+    "node-fetch": "^2.7.0",
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "start": "mkdir -p accounts && node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rambeboy/pipe-network-bot.git"
+  },
+  "keywords": [
+    "pipe",
+    "network",
+    "bot",
+    "extension",
+    "depin",
+    "pipenetwork",
+    "pipe-network",
+    "rambeboy"
+  ],
+  "author": "Rambeboy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rambeboy/pipe-network-bot/issues"
+  },
+  "homepage": "https://github.com/Rambeboy/pipe-network-bot#readme"
+}

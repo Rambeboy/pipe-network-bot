@@ -48,7 +48,7 @@ With these insights, they can reroute traffic dynamically to avoid bottlenecks, 
    npm install
    ```
 
-3. Make new file
+3. Make new file:
    ```bash
    cp accounts/accounts_tmp.js account.json && cp accounts/tokenz_tmp.js tokenz.json
    ```

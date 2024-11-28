@@ -48,9 +48,9 @@ With these insights, they can reroute traffic dynamically to avoid bottlenecks, 
    npm install
    ```
 
-3. Make new file:
+3. Configure bot file:
    ```bash
-   cp accounts/accounts_tmp.js account.json && cp accounts/tokenz_tmp.js tokenz.json
+   cp accounts/accounts_tmp.js account.json && cp accounts/tokenz_tmp.js tokenz.json && cp config/proxy_tmp.js proxy.txt
    ```
 
 4. Configure the proxy
